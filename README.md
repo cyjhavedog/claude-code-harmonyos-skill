@@ -22,7 +22,7 @@
 
 - **ArkTS 语法参考** — 装饰器、状态管理、@Builder/@Styles、ArkTS 12 新增特性（跨包类型派生）、ArkTS 13 新增特性（闭包捕获可变变量）
 - **多端响应式布局** — 5 级断点系统（xs/sm/md/lg/xl）、mediaquery 2.0 自定义断点、GridRow/GridCol 12 列栅格、SideBarContainer 分栏布局
-- **系统 Kit API** — ArkUI、MQTT（ConnectServiceKit）、传感器（SensorServiceKit）、网络（NetworkKit）、数据持久化（ArkData）、通知、后台任务等
+- **系统 Kit API** — ArkUI、传感器（SensorServiceKit）、网络（NetworkKit）、数据持久化（ArkData）、通知、后台任务等
 - **API 24 专属** — IME Kit、USB Kit、Capture Manager、自定义协议栈、HEVC/EAC3 媒体支持、单架构统一
 - **设备适配** — 手机、平板、折叠屏、2in1、车机、智慧屏全设备适配策略
 - **构建部署** — hvigor 构建、hdc 安装部署、DevEco Studio 工具链
@@ -58,7 +58,6 @@ cp -r harmonyos-dev/ ~/.claude/skills/harmonyos-dev/
 | `/harmonyos-dev syntax` | ArkTS 语法速查表（含 v12/v13 差异） |
 | `/harmonyos-dev layout <设备类型>` | 响应式布局模板（phone/tablet/car/tv/2in1） |
 | `/harmonyos-dev kit <kit名>` | Kit API 使用示例 |
-| `/harmonyos-dev mqtt` | MQTT + 传感器监控模板 |
 | `/harmonyos-dev breakpoints` | 断点系统 & 媒体查询（含 mediaquery 2.0） |
 | `/harmonyos-dev grid` | GridRow/GridCol 栅格布局详解 |
 | `/harmonyos-dev resource` | 资源限定符完整指南 |
@@ -71,7 +70,7 @@ cp -r harmonyos-dev/ ~/.claude/skills/harmonyos-dev/
 在 Claude Code 中直接描述鸿蒙开发需求即可触发 Skill：
 
 ```
-帮我创建一个鸿蒙应用，使用 ArkTS 12 语法，包含 MQTT 传感器监控功能，
+帮我创建一个鸿蒙应用，使用 ArkTS 12 语法，
 需要适配手机和平板，使用 mediaquery 断点系统做响应式布局。
 ```
 
